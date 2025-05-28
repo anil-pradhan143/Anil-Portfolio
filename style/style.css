@@ -970,19 +970,19 @@ section:nth-of-type(4) .blog-wrap {
 }
 
 section:nth-of-type(4) .blog-wrap #thumb-1 {
-  background: url("../img//achievement1.jpg") center center/cover;
+  background: url("../img/achievement.jpeg") center center/cover;
 }
 
 section:nth-of-type(4) .blog-wrap #thumb-2 {
-  background: url("../img/blog-2.jpg") center center/cover;
+  background: url("../img/achievement3.JPEG") center center/cover;
 }
 
 section:nth-of-type(4) .blog-wrap #thumb-3 {
-  background: url("../img/blog-3.jpg") center center/cover;
+  background: url("../img/achievement1.jpg") center center/cover;
 }
 
 section:nth-of-type(4) .blog-wrap #thumb-4 {
-  background: url("../img/blog-4.jpg") center center/cover;
+  background: url("../img/coming-soon.avif") center center/cover;
 }
 
 section:nth-of-type(4) .blog-wrap .fade-wrap {
