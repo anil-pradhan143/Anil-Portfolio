@@ -28,8 +28,8 @@ $(document).ready(function () {
       title: "TotalEMI/BrandEMI",
       tag: "EMI ANALYTICS.",
       detail:
-        "Roambi provides analytics, reporting, and business intelligence for companies to use on the go. A Wordpress hosted site written in PHP and Javascript with Hubspot Integration.",
-      link: "http://www.roambi.com",
+        "Payment solutions for modern businesses in India. Accept credit and debit cards, EMI, and UPI payments online using fast and reliable payment gateways. Delight customers with contactless POS swipe machines that integrate with your billing system. Create and send payment links easily and get settlements instantly to bank account.",
+      link: "https://innoviti.com/",
     },
     omdivya: {
       title: "Omdivyadarshan.org",
@@ -123,7 +123,7 @@ $(document).ready(function () {
     $(".carousel-wrap, .slide").css("width", slideWidth);
     $(".carousel-wrap, .slide").css("max-height", "380px");
     $(".modal").css("max-width", slideWidth);
-    // $('.modal').css('max-height', '580px');
+    $(".modal").css("margin-top", "30px");
     $("#carousel").css("left", slideWidth * -1);
   }
 
