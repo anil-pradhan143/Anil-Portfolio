@@ -2,12 +2,12 @@ $(document).ready(function () {
   // MODAL
   AOS.refreshHard();
   var modalText = {
-    omdivya: {
-      title: "Omdivyadarshan.org",
-      tag: "A treasure house of information on Hindu religion and spirituality.",
+    tamm: {
+      title: "TAMM",
+      tag: "Abu Dhabi Government Services.",
+      link: "https://www.tamm.abudhabi/",
       detail:
-        "OM DIVYA DARSHAN, a treasure house of information on Hindu religion and spirituality has been launched to bridge the gap between the divine and humanity. User-friendly links from each page ensure easier access to any section from anywhere. Devotional songs, Bhajans and aartis, Travel tips with Maps of each city, Travel routes and Travel assistance.",
-      link: "http://omdivyadarshan.org/",
+        'TAMM is a state-of-the-art unified digital ecosystem of over 900 government and private sector services that is customer-centric at its core. The word "TAMM” translates to “consider it done” in Arabic and as an ethos, it represents a guiding light to offering superior customer service. TAMM prides itself on accessibility and inclusivity allowing people within Abu Dhabi to access everyday vital services across Healthcare, Housing, Education, Citizenship, Residency and much more.',
     },
     insurance: {
       title: "Union Insurance",
@@ -16,12 +16,7 @@ $(document).ready(function () {
         "Union Insurance is licensed by the UAE Insurance Authority and listed on the Abu Dhabi Securities Exchange.The company provides a comprehensive range of retail and commercial insurance products to clients in the UAE and the Middle East region.Led by some of the most experienced and respected professionals in the industry",
       link: "https://www.unioninsurance.ae/",
     },
-    mystand: {
-      title: "MyStand",
-      tag: "CROWD-FUNDED CHARITY.",
-      detail:
-        "MyStand is a crowd-funding, media sharing website, that has you donating actions instead of money out of your pocket. Single page App built with Node.js on Sails and Angular 2.0. Features social media sharing and large scale crowd-funding.",
-    },
+
     sparcs: {
       title: "Sparcs",
       tag: "Reporting and Invoicing of Multi Products Platform",
@@ -36,32 +31,20 @@ $(document).ready(function () {
         "Payment solutions for modern businesses in India. Accept credit and debit cards, EMI, and UPI payments online using fast and reliable payment gateways. Delight customers with contactless POS swipe machines that integrate with your billing system. Create and send payment links easily and get settlements instantly to bank account.",
       link: "https://innoviti.com/",
     },
-    tamm: {
-      title: "TAMM",
-      tag: "ABUDHABI GOVERNMENT DIGITAL PLATFORM.",
+    omdivya: {
+      title: "Omdivyadarshan.org",
+      tag: "A treasure house of information on Hindu religion and spirituality.",
       detail:
-        'TAMM is a state-of-the-art unified digital ecosystem of over 900 government and private sector services that is customer-centric at its core. The word "TAMM” translates to “consider it done” in Arabic and as an ethos, it represents a guiding light to offering superior customer service.  TAMM prides itself on accessibility and inclusivity allowing people within Abu Dhabi to access everyday vital services across Healthcare, Housing, Education, Citizenship, Residency and much more. ',
-    },
-    powur: {
-      title: "Powur.com",
-      tag: "CONSUMER POWERED MARKETING.",
-      detail:
-        "Powur is a marketing platform for lead generation, recruitment, and team building. Built with Ruby on Rails and Angular-UI. Makes use of Angular-material for front-end visuals. Features complex user tree heiarchy and commission system.",
-      link: "http://www.powur.com/with/42",
+        "OM DIVYA DARSHAN, a treasure house of information on Hindu religion and spirituality has been launched to bridge the gap between the divine and humanity. User-friendly links from each page ensure easier access to any section from anywhere. Devotional songs, Bhajans and aartis, Travel tips with Maps of each city, Travel routes and Travel assistance.",
+      link: "http://omdivyadarshan.org/",
     },
 
-    never: {
-      title: "NeverSurrender",
-      tag: "ALS AWARENESS.",
+    mystand: {
+      title: "MyStand",
+      tag: "CROWD-FUNDED CHARITY.",
       detail:
-        "NeverSurrender is a platform for the new ALS foundation mobile app in hopes to raise awareness and research funding to fight ALS. Pure JavaScript marketing site to promote the new ALS NeverSurrender app.",
-    },
-    themall: {
-      title: "The Mall",
-      tag: "PEER GUIDED SHOPPING.",
-      detail:
-        "The Mall is a place to follow the latest fashion purchases of your friends and favorite celebrities. Built with Node.js and Handlebars. Features the ability to import thousands of top brands products into one shopping site.",
-    },
+        "MyStand is a crowd-funding, media sharing website, that has you donating actions instead of money out of your pocket. Single page App built with Node.js on Sails and Angular 2.0. Features social media sharing and large scale crowd-funding.",
+    }
   };
 
   $("#gallery .button").on("click", function () {
@@ -121,7 +104,7 @@ $(document).ready(function () {
     $(".carousel-wrap, .slide").css("width", slideWidth);
     $(".carousel-wrap, .slide").css("max-height", "380px");
     $(".modal").css("max-width", slideWidth);
-    // $('.modal').css('max-height', '580px');
+    $(".modal").css("margin-top", "30px");
     $("#carousel").css("left", slideWidth * -1);
   }
 

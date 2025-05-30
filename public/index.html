@@ -1,15 +1,12 @@
 <!DOCTYPE html>
 <html>
 
-<!-- Mirrored from findmatthew.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 20 Jun 2020 10:37:57 GMT -->
-<!-- Added by HTTrack -->
-<meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 
 <head>
   <title></title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
 
-  <!-- HOSTED -->
   <link
     href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,600italic,300italic,400italic,300,700italic,800italic,800"
     rel="stylesheet" type="text/css" />
@@ -25,7 +22,6 @@
   <link rel="stylesheet" href="style/style.css" />
   <link rel='shortcut icon' href='favicon.ico' type='image/x-icon' />
 
-  <!-- HOSTED -->
   <script src="scripts/prefixfree.min.js"></script>
   <script src="scripts/jquery.min.js"></script>
   <script src="scripts/jquery.mixitup.min.js"></script>
@@ -85,21 +81,20 @@
 
         <div class="banner-text">
           <div class="header" data-aos="fade-down">
-            <h2 style="color:#ff5722;">Hello</h2>
+            <h2 style="color:#FF671F;">Hello</h2>
           </div>
+
           <div class="header" data-aos="fade-right" data-aos-delay="1000" data-aos-easing="ease-out">
-            <h1 class="highlight">Welcome to my portfolio</h1>
+            <h1 class="highlight" style="color:#FFFFFF;">I'm Anil Pradhan</h1>
           </div>
-          <div class="header" data-aos="fade-right" data-aos-delay="2000" data-aos-easing="ease-out">
-            <h1 class="highlight">I'm Anil Pradhan</h1>
-          </div>
-          <div class="header" data-aos="fade-right" data-aos-delay="3000" data-aos-easing="ease-in-quad">
-            <h1 class="highlight">I'm a full-stack developer</h1>
+          <div class="header" data-aos="fade-right" data-aos-delay="2000" data-aos-easing="ease-in-quad">
+            <h1 class="highlight" style="color:#046A38;">I'm a full-stack developer</h1>
           </div>
         </div>
 
         <div class="button page-link" dest="about" data-aos="flip-up" data-aos-delay="3000"
-          data-aos-easing="ease-in-cubic"> View my work <i class="mdi mdi-arrow-right"></i>
+          data-aos-easing="ease-in-cubic" style="border-color: #06038D;"> View my work <i
+            class="mdi mdi-arrow-right"></i>
         </div>
 
 
@@ -175,10 +170,13 @@
 
         <div class="skills-wrapper flex row-gt-sm">
           <div class="flex flex-50-gt-sm" data-aos="slide-right">
-            <img src="img/me.png" class="me" />
-            <div><span style="font-weight: 600;color: red;">ANIL PRADHAN</span></div>
-            <!-- <div><img class="up-arrow" src="img/up-arrow.png"></div> -->
-            <div class="label bold">Who's this guy?</div>
+            <div class="hexagon-wrap">
+
+              <img src="img/hexagon-avatar.png" class="me" />
+              <div><span style="font-weight: 600;color: red;">ANIL PRADHAN</span></div>
+              <!-- <div><img class="up-arrow" src="img/up-arrow.png"></div> -->
+              <div class="label bold">Who's this guy?</div>
+            </div>
             <div>
               I'm a Senior Full-Stack Developer at
               <a class="highlight" href="https://www.tamm.abudhabi/" target="_blank">TAMM</a>
@@ -336,33 +334,76 @@
       <div class="filter-wrap " data-aos="fade-left" data-aos-delay="300">
         <div class="flex row">
           <div class="filter" data-filter="all">ALL</div>
-          <div class="filter" data-filter=".net">.Net/AngularJS</div>
-          <div class="filter" data-filter=".react">REACT-JS</div>
-          <div class="filter" data-filter=".js">JAVASCRIPT</div>
+          <div class="filter" data-filter=".tamm">2018-20</div>
+          <div class="filter" data-filter=".quant">2020-2022</div>
+          <div class="filter" data-filter=".citius">2022-25</div>
         </div>
         <div class="float-bar">
           <div class="flex row">
             <div class="filter" data-filter="all">ALL</div>
-            <div class="filter" data-filter=".net">.Net/AngularJS</div>
-            <div class="filter" data-filter=".react">REACT-JS</div>
-            <div class="filter" data-filter=".js">JAVASCRIPT</div>
+            <div class="filter" data-filter=".tamm">2018-20</div>
+            <div class="filter" data-filter=".quant">2020-2022</div>
+            <div class="filter" data-filter=".citius">2022-25</div>
+
           </div>
         </div>
       </div>
 
       <div id="gallery" class="container flex row wrap waypoint">
-        <div class="mix net" data-my-order="1">
+
+        <div class="mix quant" data-my-order="1">
+          <div>
+            <div class="card"></div>
+            <div class="text">
+              <div class="bold">TAMM AI</div>
+              <span class="highlight">Workbench / Chatbot</span>
+            </div>
+            <div class="button" id="tamm">LEARN MORE</div>
+          </div>
+        </div>
+        <div class="mix tamm" data-my-order="2">
           <div>
             <div class="card"></div>
             <div class="text">
               <div class="bold">Union Insurance</div>
-              <span class="highlight">.Net/AngulasJS</span>
+              <span class="highlight">React / Node.js</span>
             </div>
             <div class="button" id="insurance">LEARN MORE</div>
           </div>
         </div>
 
-        <div class="mix js" data-my-order="1">
+        <div class="mix citius" data-my-order="3">
+          <div>
+            <div class="card"></div>
+            <div class="text">
+              <div class="bold">MY STAND</div>
+              <span class="highlight">React / Node.js</span>
+            </div>
+            <div class="button" id="mystand">LEARN MORE</div>
+          </div>
+        </div>
+        <div class="mix citius" data-my-order="5">
+          <div>
+            <div class="card"></div>
+            <div class="text">
+              <div class="bold">Sparcs</div>
+              <span class="highlight">React / Node.js</span>
+            </div>
+            <div class="button" id="sparcs">LEARN MORE</div>
+          </div>
+        </div>
+        <div class="mix quant" data-my-order="4">
+          <div>
+            <div class="card"></div>
+            <div class="text">
+              <div class="bold">TotalEMI/BrandEMI </div>
+              <span class="highlight">React / Node.js</span>
+            </div>
+            <div class="button" id="emi">LEARN MORE</div>
+          </div>
+        </div>
+
+        <div class="mix citius" data-my-order="6">
           <div>
             <div class="card"></div>
             <div class="text">
@@ -373,82 +414,6 @@
           </div>
         </div>
 
-        <div class="mix react" data-my-order="1">
-          <div>
-            <div class="card"></div>
-            <div class="text">
-              <div class="bold">Sparcs</div>
-              <span class="highlight">React / Node.js</span>
-            </div>
-            <div class="button" id="sparcs">LEARN MORE</div>
-          </div>
-        </div>
-
-        <div class="mix react" data-my-order="1">
-          <div>
-            <div class="card"></div>
-            <div class="text">
-              <div class="bold">TotalEMI/BrandEMI </div>
-              <span class="highlight">React / Node.js</span>
-            </div>
-            <div class="button" id="emi">LEARN MORE</div>
-          </div>
-        </div>
-        <!--
-        <div class="mix rails" data-my-order="1">
-          <div>
-            <div class="card"></div>
-            <div class="text">
-              <div class="bold">Walker Tracker</div>
-              <span class="highlight">JS / Ruby on Rails</span>
-            </div>
-            <div class="button" id="walker">LEARN MORE</div>
-          </div>
-        </div>
-
-        <div class="mix js" data-my-order="1">
-          <div>
-            <div class="card"></div>
-            <div class="text">
-              <div class="bold">MY STAND</div>
-              <span class="highlight">JS / Node.js on Sails</span>
-            </div>
-            <div class="button" id="mystand">LEARN MORE</div>
-          </div>
-        </div>
-
-        <div class="mix js" data-my-order="1">
-          <div>
-            <div class="card"></div>
-            <div class="text">
-              <div class="bold">NEVER SURRENDER</div>
-              <span class="highlight">JavaScript</span>
-            </div>
-            <div class="button" id="never">LEARN MORE</div>
-          </div>
-        </div>
-
-        <div class="mix rails" data-my-order="1">
-          <div>
-            <div class="card"></div>
-            <div class="text">
-              <div class="bold">Powur</div>
-              <span class="highlight">Angular / Ruby on Rails</span>
-            </div>
-            <div class="button" id="powur">LEARN MORE</div>
-          </div>
-        </div>
-
-        <div class="mix js" data-my-order="1">
-          <div>
-            <div class="card"></div>
-            <div class="text">
-              <div class="bold">The Mall</div>
-              <span class="highlight">React.js / Node</span>
-            </div>
-            <div class="button" id="themall">LEARN MORE</div>
-          </div>
-        </div> -->
       </div>
     </section>
 
@@ -474,6 +439,8 @@
                 </div>
               </div>
             </a>
+
+
             <a href="./img/achievement3.JPEG" target="_blank">
               <div class="blog-wrap waypoint" data-animation="fade-in" data-delay=".2s">
                 <div class="fade-wrap">
@@ -502,7 +469,8 @@
                   <div class="date">OCTOBER 14, 2024</div>
                   <div class="bar"></div>
                   <div class="text">
-                    AI in TAMM 3.0 represents a transformative shift—making government services more intuitive, efficient, and human-centric.
+                    AI in TAMM 3.0 represents a transformative shift—making government services more intuitive,
+                    efficient, and human-centric.
                   </div>
                 </div>
               </div>
@@ -540,20 +508,30 @@
           CONTACT
         </div>
         <div class="header-bar waypoint" data-animation="slide-in-right" data-delay=".25s"></div>
-        <div class="highlight waypoint" data-animation="slide-in-right" data-delay=".5s">
-          Have a question or want to work together?
+
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+        <div class="text waypoint slide-in-left"
+          style="animation-delay: 0.5s; font-family: Arial, Helvetica, sans-serif; color: #c9d1d9;">
+
+          <p><i class="fas fa-phone-alt"></i> UAE:
+            <a href="tel:+971562452156" style="color: #58a6ff;">+971 562452156</a>
+          </p>
+
+          <p><i class="fas fa-phone-alt"></i> India:
+            <a href="tel:+917028315568" style="color: #58a6ff;">+91 7028315568</a>
+          </p>
+
+          <p><i class="fas fa-envelope"></i>
+            <a href="mailto:iamanilpradhan@gmail.com" style="color: #58a6ff;">iamanilpradhan@gmail.com</a>
+          </p>
+
+          <p><i class="fab fa-linkedin"></i>
+            <a href="https://www.linkedin.com/in/anil-pradhan-link/" target="_blank"
+              style="color: #58a6ff;">linkedin.com/in/anil-pradhan-link</a>
+          </p>
         </div>
-        <form class="waypoint" data-animation="pop-in" data-delay=".5s" id="contact-form">
-          <input placeholder="Name" type="text" name="name" required />
-          <input placeholder="Enter email" type="email" name="email" required />
-          <textarea placeholder="Your Message" type="text" name="message"></textarea>
-          <div id="success">
-            <div>
-              Your message was sent successfully. Thanks!<span id="close" class="mdi mdi-close"></span>
-            </div>
-          </div>
-          <input class="button" type="submit" id="submit" value="SUBMIT" />
-        </form>
       </div>
     </section>
 
@@ -561,12 +539,12 @@
       <i class="mdi mdi-chevron-double-up page-link" dest="home"></i>
 
       <div class="icon-wrap flex row">
-        <a href="#">
+        <a href="https://github.com/anil-pradhan143 " target="_blank">
           <div class="flex icon" id="icon-2">
             <i class="mdi mdi-github-circle"></i>
           </div>
         </a>
-        <a href="#">
+        <a href="https://www.linkedin.com/in/anil-pradhan-link/" target="_blank">
           <div class="flex icon" id="icon-2">
             <i class="mdi mdi-linkedin"></i>
           </div>
@@ -587,24 +565,10 @@
           </div>
         </a>
 
-        <!-- <ul class="social header waypoint" data-animation="slide-in-right">
-            <li><a href="https://github.com/8bithemant" target="_blank"  style="color:#00bcd4;"><i class="fa fa-github"></i></a></li>
-            <li><a href="https://twitter.com/8bitHemant" target=" _blank" style="color: #1da1f2;"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/hemant-joshi-85518a195" target=" _blank" style="color: #007bb5 ;"><i class="fa fa-linkedin"></i></a></li>
-            <li><a href="https://www.youtube.com/channel/UCnjtfqrot1h5BU6FMEp3mKA" target="_blank" style="color:#ff0000;"> <i class="fa fa-youtube-play"></i></a></li>
-            <li><a href="https://www.instagram.com/hemant.gz" target="_blank" style=" background: #f09433; 
-              background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
-              background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-              background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-              filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );"> <i class="fa fa-instagram"></i></a></li>
-            <li><a href="https://www.facebook.com/hemant.rockingguy" target="_blank"  style="color:#1877f2;"><i class="fa fa-facebook"></i></a></li>
-
-         </ul> -->
-
       </div>
       <div class="info-box">
         <div class="footnote">
-          ANIL Pradhan <span class="highlight">&copy;2025</span>
+          ANIL PRADHAN <span class="highlight">&copy;2025</span>
         </div>
       </div>
     </footer>
@@ -621,34 +585,8 @@
     <img src="img/thumb-6.jpg" />
     <img src="img/achievement.jpeg" />
     <img src="img/achievement2.png" />
-    <img src="img/blog-3.jpg" />
-    <img src="img/blog-4.jpg" />
-    <img src="img/slides/discover-0.jpg" />
-    <img src="img/slides/discover-1.jpg" />
-    <img src="img/slides/discover-2.jpg" />
-    <img src="img/slides/ordering-0.jpg" />
-    <img src="img/slides/ordering-1.jpg" />
-    <img src="img/slides/ordering-2.jpg" />
-    <img src="img/slides/newrelic-0.jpg" />
-    <img src="img/slides/newrelic-1.jpg" />
-    <img src="img/slides/newrelic-2.jpg" />
     <img src="img/slides/mystand-0.jpg" />
     <img src="img/slides/mystand-1.jpg" />
-    <img src="img/slides/never-0.jpg" />
-    <img src="img/slides/never-1.jpg" />
-    <img src="img/slides/never-2.jpg" />
-    <img src="img/slides/powur-0.jpg" />
-    <img src="img/slides/powur-1.jpg" />
-    <img src="img/slides/powur-2.jpg" />
-    <img src="img/slides/roambi-0.jpg" />
-    <img src="img/slides/roambi-1.jpg" />
-    <img src="img/slides/roambi-2.jpg" />
-    <img src="img/slides/themall-0.jpg" />
-    <img src="img/slides/themall-1.jpg" />
-    <img src="img/slides/themall-2.jpg" />
-    <img src="img/slides/walker-0.jpg" />
-    <img src="img/slides/walker-1.jpg" />
-    <img src="img/slides/walker-2.jpg" />
   </div>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
@@ -656,8 +594,6 @@
     AOS.init();
   </script>
 </body>
-
-<!-- Mirrored from findmatthew.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 20 Jun 2020 10:43:35 GMT -->
 
 </html>
 
